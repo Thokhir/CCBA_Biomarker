@@ -59,9 +59,61 @@ def fetch_disease_associations(ensembl_id: str, size: int = 10) -> list:
     return data["associatedDiseases"]["rows"] if data else []
 
 
+def fetch_known_drugs(ensembl_id: str, size: int = 10) -> list:
+    """Approved/clinical-candidate drugs already known to target this gene."""
+    query = """
+    query TargetDrugs($ensemblId: String!) {
+      target(ensemblId: $ensemblId) {
+        drugAndClinicalCandidates {
+          count
+          rows {
+            maxClinicalStage
+            drug { name drugType }
+            diseases { disease { name } }
+          }
+        }
+      }
+    }
+    """
+    response = requests.post(
+        OPEN_TARGETS_API, json={"query": query, "variables": {"ensemblId": ensembl_id}},
+        timeout=REQUEST_TIMEOUT,
+    )
+    response.raise_for_status()
+    data = response.json()["data"]["target"]
+    rows = data["drugAndClinicalCandidates"]["rows"] if data else []
+    return rows[:size]
+
+
+def fetch_tractability(ensembl_id: str) -> list:
+    """Druggability signals (small molecule / antibody / PROTAC / other
+    modalities), each a boolean flag under a named tractability bucket."""
+    query = """
+    query TargetTractability($ensemblId: String!) {
+      target(ensemblId: $ensemblId) {
+        tractability { label modality value }
+      }
+    }
+    """
+    response = requests.post(
+        OPEN_TARGETS_API, json={"query": query, "variables": {"ensemblId": ensembl_id}},
+        timeout=REQUEST_TIMEOUT,
+    )
+    response.raise_for_status()
+    data = response.json()["data"]["target"]
+    return data["tractability"] if data else []
+
+
 if __name__ == "__main__":
     hit = search_target_by_symbol("OTC")
     print("Symbol search for OTC:", hit)
     associations = fetch_disease_associations(resolve_ensembl_id("ENSG00000036473.8"), size=5)
     for a in associations:
         print(f"{a['disease']['name']}: score={a['score']:.4f}")
+
+    drugs = fetch_known_drugs(resolve_ensembl_id("ENSG00000051180.17"))  # RAD51
+    print(f"\nRAD51 known drugs: {len(drugs)}")
+
+    tractability = fetch_tractability(resolve_ensembl_id("ENSG00000051180.17"))
+    druggable_family = [t for t in tractability if t["label"] == "Druggable Family" and t["value"]]
+    print(f"RAD51 druggable family flags (true): {druggable_family}")

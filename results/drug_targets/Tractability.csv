@@ -1,0 +1,21 @@
+gene_name,ensembl_id,n_druggability_flags,has_approved_drug,is_druggable_family_sm,druggability_labels
+OTC,ENSG00000036473,5,False,True,SM:Structure with Ligand; SM:High-Quality Pocket; SM:Druggable Family; PR:Half-life Data; PR:Small Molecule Binder
+SPDL1,ENSG00000040275,2,False,False,PR:UniProt Ubiquitination; PR:Database Ubiquitination
+MED17,ENSG00000042429,3,False,False,SM:Structure with Ligand; PR:Database Ubiquitination; PR:Half-life Data
+USH2A,ENSG00000042781,4,False,False,AB:UniProt loc med conf; AB:UniProt SigP or TMHMM; AB:GO CC med conf; PR:Database Ubiquitination
+JADE2,ENSG00000043143,2,False,False,PR:Database Ubiquitination; PR:Half-life Data
+OSBPL3,ENSG00000070882,5,False,False,SM:Structure with Ligand; AB:UniProt loc high conf; AB:GO CC high conf; PR:Database Ubiquitination; PR:Half-life Data
+RAD51,ENSG00000051180,6,False,True,SM:Structure with Ligand; SM:High-Quality Ligand; SM:Druggable Family; PR:UniProt Ubiquitination; PR:Database Ubiquitination; PR:Small Molecule Binder
+POLQ,ENSG00000051341,2,False,False,SM:Structure with Ligand; PR:Database Ubiquitination
+MCF2L2,ENSG00000053524,1,False,False,PR:Database Ubiquitination
+ITIH4,ENSG00000055955,4,False,False,AB:GO CC high conf; AB:UniProt loc med conf; AB:UniProt SigP or TMHMM; PR:Half-life Data
+ITIH1,ENSG00000055957,4,False,False,AB:UniProt loc med conf; AB:UniProt SigP or TMHMM; AB:GO CC med conf; PR:Half-life Data
+CDH3,ENSG00000062038,7,False,False,SM:Structure with Ligand; AB:Phase 1 Clinical; AB:GO CC high conf; AB:UniProt loc med conf; AB:UniProt SigP or TMHMM; AB:Human Protein Atlas loc; PR:Database Ubiquitination
+DGAT2,ENSG00000062282,4,False,False,SM:High-Quality Ligand; AB:UniProt SigP or TMHMM; PR:Database Ubiquitination; PR:Small Molecule Binder
+PON1,ENSG00000005421,6,False,False,SM:High-Quality Ligand; AB:GO CC high conf; AB:UniProt loc med conf; AB:UniProt SigP or TMHMM; PR:Half-life Data; PR:Small Molecule Binder
+SPA17,ENSG00000064199,4,False,False,SM:Structure with Ligand; AB:UniProt loc high conf; AB:GO CC med conf; PR:Database Ubiquitination
+LPAR2,ENSG00000064547,6,False,True,SM:High-Quality Ligand; SM:Druggable Family; AB:UniProt loc high conf; AB:GO CC high conf; AB:UniProt SigP or TMHMM; PR:Small Molecule Binder
+DEPDC1B,ENSG00000035499,1,False,False,PR:Database Ubiquitination
+MCM10,ENSG00000065328,2,False,False,PR:UniProt Ubiquitination; PR:Database Ubiquitination
+PACC1,ENSG00000065600,5,False,False,SM:Structure with Ligand; AB:UniProt loc high conf; AB:GO CC high conf; AB:UniProt SigP or TMHMM; PR:Database Ubiquitination
+MTHFD2,ENSG00000065911,6,False,False,SM:Structure with Ligand; SM:High-Quality Ligand; PR:UniProt Ubiquitination; PR:Database Ubiquitination; PR:Half-life Data; PR:Small Molecule Binder

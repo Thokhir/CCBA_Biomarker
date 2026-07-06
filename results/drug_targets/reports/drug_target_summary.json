@@ -1,0 +1,63 @@
+{
+    "generation_date": "2026-07-06 15:23:38",
+    "panel_size": 20,
+    "top5_priority_targets": [
+        {
+            "gene_name": "DGAT2",
+            "target_priority_score": 0.6971571412478306
+        },
+        {
+            "gene_name": "RAD51",
+            "target_priority_score": 0.6509466171906554
+        },
+        {
+            "gene_name": "MTHFD2",
+            "target_priority_score": 0.5795494505787586
+        },
+        {
+            "gene_name": "PON1",
+            "target_priority_score": 0.5782377110648896
+        },
+        {
+            "gene_name": "USH2A",
+            "target_priority_score": 0.5685175620942589
+        }
+    ],
+    "n_genes_with_dgidb_interactions": 7,
+    "n_genes_with_open_targets_drugs": 1,
+    "n_druggable_family_sm": 3,
+    "n_repurposing_candidates": 34,
+    "top_repurposing_candidates": [
+        {
+            "gene_name": "DGAT2",
+            "drug_name": "ERVOGASTAT",
+            "source": "DGIdb",
+            "target_priority_score": 0.6971571412478306
+        },
+        {
+            "gene_name": "DGAT2",
+            "drug_name": "PF-07202954",
+            "source": "DGIdb",
+            "target_priority_score": 0.6971571412478306
+        },
+        {
+            "gene_name": "DGAT2",
+            "drug_name": "NIACIN",
+            "source": "DGIdb",
+            "target_priority_score": 0.6971571412478306
+        },
+        {
+            "gene_name": "RAD51",
+            "drug_name": "AMUVATINIB",
+            "source": "DGIdb",
+            "target_priority_score": 0.6509466171906554
+        },
+        {
+            "gene_name": "PON1",
+            "drug_name": "LEFLUNOMIDE",
+            "source": "DGIdb",
+            "target_priority_score": 0.5782377110648896
+        }
+    ],
+    "note": "DrugBank not integrated - its API requires a paid academic license."
+}

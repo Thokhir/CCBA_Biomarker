@@ -1,0 +1,38 @@
+======================================================================
+DRUG TARGET DISCOVERY REPORT
+======================================================================
+
+Generated : 2026-07-06 15:23:38.522741
+Panel size : 20 genes
+
+Top 5 Prioritized Targets (composite score: predictive + external +
+biological relevance + survival association, equally weighted)
+----------------------------------------------------------------------
+DGAT2: score=0.697
+RAD51: score=0.651
+MTHFD2: score=0.580
+PON1: score=0.578
+USH2A: score=0.569
+
+Drug-Gene Evidence
+----------------------------------------------------------------------
+DGIdb: 7 / 20 genes have known interactions
+Open Targets: 1 / 20 genes have known drugs/clinical candidates
+Small-molecule druggable family: 3 / 20 genes
+
+Top Repurposing Candidates (ranked by target priority score)
+----------------------------------------------------------------------
+DGAT2 -> ERVOGASTAT (DGIdb, priority=0.697)
+DGAT2 -> PF-07202954 (DGIdb, priority=0.697)
+DGAT2 -> NIACIN (DGIdb, priority=0.697)
+RAD51 -> AMUVATINIB (DGIdb, priority=0.651)
+PON1 -> LEFLUNOMIDE (DGIdb, priority=0.578)
+PON1 -> SIMVASTATIN (DGIdb, priority=0.578)
+PON1 -> QUERCETIN (DGIdb, priority=0.578)
+OTC -> VALPROIC ACID (DGIdb, priority=0.546)
+OTC -> 4-PHENYLBUTYRIC ACID (DGIdb, priority=0.546)
+OTC -> GLYCEROL PHENYLBUTYRATE (DGIdb, priority=0.546)
+
+Note: DrugBank was not integrated - its API now requires a paid academic
+license. DGIdb and Open Targets (both free) provide the drug-gene evidence
+in this report.
