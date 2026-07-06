@@ -1,0 +1,8 @@
+sample_id,phenotype,final_label,predicted_label,tumor_probability,prediction_status,cohort,role,row_position
+GSM653077,Tumor,1,1,0.538,Correct,GSE26566,correct_tumor,62
+GSM653015,Normal,0,0,0.272,Correct,GSE26566,correct_normal,0
+GSM653149,Tumor,1,0,0.5,Incorrect,GSE26566,misclassified,134
+GSM798630,Normal,0,0,0.388,Correct,GSE32225,correct_normal,149
+GSM798481,Tumor,1,0,0.388,Incorrect,GSE32225,misclassified,0
+GSM2387695,Normal,0,0,0.46,Correct,GSE89749,correct_normal,46
+GSM2387649,Tumor,1,0,0.46,Incorrect,GSE89749,misclassified,0

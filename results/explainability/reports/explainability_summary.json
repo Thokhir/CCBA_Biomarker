@@ -1,0 +1,25 @@
+{
+    "model_training_date": "2026-07-04 20:50:19",
+    "explainability_generation_date": "2026-07-06 14:23:03",
+    "n_training_samples": 44,
+    "n_external_samples_explained": 444,
+    "ranking_correlations": {
+        "spearman_shap_vs_permutation": 0.20150375939849624,
+        "spearman_shap_vs_rf_builtin": 0.9819548872180449,
+        "spearman_permutation_vs_rf_builtin": 0.22105263157894736
+    },
+    "top5_shap_genes": [
+        "USH2A",
+        "ITIH1",
+        "DGAT2",
+        "JADE2",
+        "OTC"
+    ],
+    "top5_permutation_genes": [
+        "RAD51",
+        "USH2A",
+        "DEPDC1B",
+        "MED17",
+        "POLQ"
+    ]
+}

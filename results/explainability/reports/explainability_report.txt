@@ -1,0 +1,44 @@
+======================================================================
+EXPLAINABLE AI REPORT
+======================================================================
+
+Generated : 2026-07-06 14:23:03.339644
+
+Top 10 Genes by Global SHAP Importance
+----------------------------------------------------------------------
+ 1. USH2A      mean|SHAP|=0.03914
+ 2. ITIH1      mean|SHAP|=0.03467
+ 3. DGAT2      mean|SHAP|=0.03455
+ 4. JADE2      mean|SHAP|=0.03182
+ 5. OTC        mean|SHAP|=0.03054
+ 6. PON1       mean|SHAP|=0.02952
+ 7. RAD51      mean|SHAP|=0.02917
+ 8. MTHFD2     mean|SHAP|=0.02873
+ 9. MCF2L2     mean|SHAP|=0.02525
+10. SPDL1      mean|SHAP|=0.02486
+
+Top 10 Genes by Permutation Importance (external cohorts, ROC-AUC)
+----------------------------------------------------------------------
+ 1. RAD51      mean_auc_drop=0.01331
+ 2. USH2A      mean_auc_drop=0.01106
+ 3. DEPDC1B    mean_auc_drop=0.00701
+ 4. MED17      mean_auc_drop=0.00599
+ 5. POLQ       mean_auc_drop=0.00584
+ 6. MCM10      mean_auc_drop=0.00575
+ 7. OTC        mean_auc_drop=0.00340
+ 8. MCF2L2     mean_auc_drop=0.00214
+ 9. DGAT2      mean_auc_drop=0.00213
+10. CDH3       mean_auc_drop=0.00190
+
+Ranking Correlations (Spearman)
+----------------------------------------------------------------------
+SHAP vs Permutation      : 0.202
+SHAP vs RF built-in      : 0.982
+Permutation vs RF built-in: 0.221
+
+Note: SHAP and RF built-in importance are computed on the TCGA training
+population; permutation importance is computed on the pooled external GEO
+cohorts. A lower correlation there reflects genuine distribution shift
+between training and external data, not a computation error - consistent
+with this project's established distinction between ML feature stability
+and clinically reproducible biomarkers.
