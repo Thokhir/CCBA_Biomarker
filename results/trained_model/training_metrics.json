@@ -1,0 +1,12 @@
+{
+    "Accuracy_mean": 1.0,
+    "Accuracy_std": 0.0,
+    "AUC_mean": 1.0,
+    "AUC_std": 0.0,
+    "Precision_mean": 1.0,
+    "Recall_mean": 1.0,
+    "Sensitivity_mean": 1.0,
+    "Specificity_mean": 1.0,
+    "BalancedAccuracy_mean": 1.0,
+    "F1_mean": 1.0
+}

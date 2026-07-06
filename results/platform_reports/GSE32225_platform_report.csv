@@ -1,0 +1,2 @@
+gse,platform_id,title,technology,organism,manufacturer,sample_count,columns,probe_column,expression_column,ready_for_mapping
+GSE32225,GPL8432,Illumina HumanRef-8 WG-DASL v3.0,oligonucleotide beads,Homo sapiens,Illumina Inc.,155,"['ID_REF', 'VALUE']",ID_REF,VALUE,True

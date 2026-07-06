@@ -1,0 +1,33 @@
+column,dtype,missing_values,unique_values,example_values
+sample_id,object,0,169,GSM653015 | GSM653016 | GSM653017 | GSM653018 | GSM653019
+title,object,0,169,Surrounding liver SL1 | Surrounding liver SL2 | Surrounding liver SL3 | Surrounding liver SL4 | Surrounding liver SL5
+geo_accession,object,0,169,GSM653015 | GSM653016 | GSM653017 | GSM653018 | GSM653019
+status,object,0,1,Public on Feb 25 2012
+submission_date,object,0,1,Jan 11 2011
+last_update_date,object,0,1,Nov 15 2013
+type,object,0,1,RNA
+channel_count,int64,0,1,1
+source_name_ch1,object,0,169,Surrounding liver SL1 | Surrounding liver SL2 | Surrounding liver SL3 | Surrounding liver SL4 | Surrounding liver SL5
+organism_ch1,object,0,1,Homo sapiens
+taxid_ch1,int64,0,1,9606
+characteristics_ch1,object,0,169,sample id: LEC1 | tissue: Surrounding liver | sample id: LEC2 | tissue: Surrounding liver | sample id: LEC3 | tissue: Surrounding liver | sample id: LEC4 | tissue: Surrounding liver | sample id: LEC5 | tissue: Surrounding liver
+molecule_ch1,object,0,1,total RNA
+extract_protocol_ch1,object,0,1,Total RNA was extracted using Qiagen mini kit. Quality control and measurement were performed using NanoDrop and Agilent Bioanalyser.
+label_ch1,object,0,1,biotin
+label_protocol_ch1,object,0,1,Biotinylated cRNA were prepared using Ambion Totalprep RNA Amplification kit for Illumina arrays
+hyb_protocol,object,0,1,Standard Illumina hybridization protocol
+scan_protocol,object,0,1,Standard Illumina scanning protocol
+description,object,0,111,matched | patient1 | patient2 | patient3 | patient4
+data_processing,object,0,1,"Data was processed by means of  Genome Studio v2010 from illumina, Inc. The background noise was substrated and quantile normalization was applied."
+platform_id,object,0,1,GPL6104
+contact_name,object,0,1,"Jesper,B,Andersen"
+contact_laboratory,object,0,1,Andersen Group
+contact_department,object,0,1,Biotech Research and Innovation Centre
+contact_institute,object,0,1,Copenhagen University
+contact_address,object,0,1,Ole Maaloes Vej 5
+contact_city,object,0,1,Copenhagen
+contact_zip/postal_code,int64,0,1,2200
+contact_country,object,0,1,Denmark
+supplementary_file,object,0,1,NONE
+series_id,object,0,1,GSE26566
+data_row_count,int64,0,1,22184

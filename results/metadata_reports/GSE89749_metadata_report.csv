@@ -1,0 +1,34 @@
+column,dtype,missing_values,unique_values,example_values
+sample_id,object,0,120,GSM2387649 | GSM2387650 | GSM2387651 | GSM2387652 | GSM2387653
+title,object,0,120,3998386026_A | 3998386026_B | 3998386026_C | 3998386026_D | 3998386026_E
+geo_accession,object,0,120,GSM2387649 | GSM2387650 | GSM2387651 | GSM2387652 | GSM2387653
+status,object,0,1,Public on Jul 03 2017
+submission_date,object,0,1,Nov 10 2016
+last_update_date,object,0,1,Jul 03 2017
+type,object,0,1,RNA
+channel_count,int64,0,1,1
+source_name_ch1,object,0,2,tumor | normal
+organism_ch1,object,0,1,Homo sapiens
+taxid_ch1,int64,0,1,9606
+characteristics_ch1,object,0,1,tissue: bile duct
+molecule_ch1,object,0,1,total RNA
+extract_protocol_ch1,object,0,1,"RNA was extracted from tumor tissue using RNeasy mini kit (Qiagen), quantified by measuring Abs260 with a UV spectrophotometer and the quality was assessed with the Agilent 2100 Bioanalyzer"
+label_ch1,object,0,1,biotin
+label_protocol_ch1,object,0,1,Biotin-labeled cRNA were prepared using the Illumina TotalPrep RNA Amplification Kit (Ambion Inc.) from 250ng-500ng of total RNA
+hyb_protocol,object,0,1,"750ng of biotin-labeled cRNA were hybridized on the Illumina HT-12 version 4 beadchip according to Manufacturerâ€™s instruction (Illumina, Inc., San Diego, CA)"
+scan_protocol,object,0,1,"Beadchips were washed and stained according to Manufacturerâ€™s instruction and scanned using Illumina BeadArray Reader (Illumina, Inc., San Diego, CA)"
+description,object,0,2,cholangiocarcinoma | normal bile duct
+data_processing,object,0,1,"GenomeStudio v2011.1 + Gene Expression v1.9.0 (raw - noNormalization and noBackground, normalized - Quantile normalization and noBackground)"
+platform_id,object,0,1,GPL10558
+contact_name,object,0,1,"Jing Quan,,Lim"
+contact_department,object,0,1,CMR
+contact_institute,object,0,1,National Cancer Centre Singapore
+contact_address,object,0,1,30 Hospital Boulevard
+contact_city,object,0,1,Singapore
+contact_zip/postal_code,int64,0,1,168583
+contact_country,object,0,1,Singapore
+supplementary_file,object,0,120,ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2387nnn/GSM2387649/suppl/GSM2387649_3998386026_A_Grn.idat.gz | ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2387nnn/GSM2387650/suppl/GSM2387650_3998386026_B_Grn.idat.gz | ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2387nnn/GSM2387651/suppl/GSM2387651_3998386026_C_Grn.idat.gz | ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2387nnn/GSM2387652/suppl/GSM2387652_3998386026_D_Grn.idat.gz | ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2387nnn/GSM2387653/suppl/GSM2387653_3998386026_E_Grn.idat.gz
+series_id,object,0,2,GSE89747 | GSE89749 | GSE89748 | GSE89749
+data_row_count,int64,0,2,47274 | 47258
+treatment_protocol_ch1,float64,120,0,
+growth_protocol_ch1,float64,120,0,

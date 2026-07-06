@@ -1,0 +1,33 @@
+### Large / regenerable data (reproducible from public GEO/TCGA accessions via src/ pipelines) ###
+data/raw/
+data/geo/raw/
+data/geo/annotations/
+data/geo/expression/
+data/geo/harmonized_expression/
+data/geo/mapped_expression/
+data/geo/processed/
+data/geo/processed_annotations/
+data/geo/resolved_expression/
+data/intermediate/
+
+results/external_cohorts/
+
+### Python ###
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+### Environments ###
+.venv/
+venv/
+env/
+.env
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Editor ###
+.vscode/

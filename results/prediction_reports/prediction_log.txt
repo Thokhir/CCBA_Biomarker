@@ -1,0 +1,43 @@
+================================================================================
+External Prediction Engine
+================================================================================
+
+Execution Time : 2026-07-04 21:03:11.892490
+Python Version : 3.11.15
+Operating System : Windows
+Machine : AMD64
+
+Model : rf_model.pkl
+Expected Biomarkers : 20
+Cohorts Processed : 3
+
+------------------------------------------------------------
+Cohort : GSE26566
+Samples : 169
+Tumor Predictions : 42
+Normal Predictions : 127
+Correct Predictions : 105
+Incorrect Predictions : 64
+Missing Biomarkers : 5
+Average Probability : 0.3615
+
+------------------------------------------------------------
+Cohort : GSE32225
+Samples : 155
+Tumor Predictions : 0
+Normal Predictions : 155
+Correct Predictions : 6
+Incorrect Predictions : 149
+Missing Biomarkers : 5
+Average Probability : 0.3880
+
+------------------------------------------------------------
+Cohort : GSE89749
+Samples : 120
+Tumor Predictions : 0
+Normal Predictions : 120
+Correct Predictions : 2
+Incorrect Predictions : 118
+Missing Biomarkers : 3
+Average Probability : 0.4600
+

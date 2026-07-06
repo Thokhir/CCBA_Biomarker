@@ -1,0 +1,2 @@
+gse,platform_id,title,technology,organism,manufacturer,sample_count,columns,probe_column,expression_column,ready_for_mapping
+GSE26566,GPL6104,Illumina humanRef-8 v2.0 expression beadchip,oligonucleotide beads,Homo sapiens,Illumina Inc.,169,"['ID_REF', 'VALUE', 'Detection Pval']",ID_REF,VALUE,True

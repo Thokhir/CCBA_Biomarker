@@ -1,0 +1,29 @@
+{
+    "algorithm": "RandomForest",
+    "n_estimators": 1000,
+    "random_state": 42,
+    "training_samples": 44,
+    "features": 20,
+    "panel_genes": [
+        "OTC",
+        "SPDL1",
+        "MED17",
+        "USH2A",
+        "JADE2",
+        "OSBPL3",
+        "RAD51",
+        "POLQ",
+        "MCF2L2",
+        "ITIH4",
+        "ITIH1",
+        "CDH3",
+        "DGAT2",
+        "PON1",
+        "SPA17",
+        "LPAR2",
+        "DEPDC1B",
+        "MCM10",
+        "PACC1",
+        "MTHFD2"
+    ]
+}

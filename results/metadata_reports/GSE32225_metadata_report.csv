@@ -1,0 +1,31 @@
+column,dtype,missing_values,unique_values,example_values
+sample_id,object,0,155,GSM798481 | GSM798482 | GSM798483 | GSM798484 | GSM798485
+title,object,0,155,CCBCN001 | CCBCN002 | CCBCN003 | CCBCN004 | CCBCN005
+geo_accession,object,0,155,GSM798481 | GSM798482 | GSM798483 | GSM798484 | GSM798485
+status,object,0,1,Public on Jan 24 2013
+submission_date,object,0,1,Sep 19 2011
+last_update_date,object,0,1,Jan 24 2013
+type,object,0,1,RNA
+channel_count,int64,0,1,1
+source_name_ch1,object,0,2,Human intrahepatic cholangiocarcinoma | Human normal biliary epithelial cells
+organism_ch1,object,0,1,Homo sapiens
+taxid_ch1,int64,0,1,9606
+characteristics_ch1,object,0,3,disease state: intrahepatic cholangiocarcinoma | nmf.subclass: Inflammation | disease state: intrahepatic cholangiocarcinoma | nmf.subclass: Proliferation | cell type: normal biliary epithelial cells
+molecule_ch1,object,0,1,total RNA
+extract_protocol_ch1,object,0,1,"Using formalin-fixed, paraffin-embedded HCC tissues, total RNA was extracted using TRIzol (Invitrogen)."
+label_ch1,object,0,1,Cy5
+label_protocol_ch1,object,0,1,Refer to the Illumina beadarray Assay System Manual
+hyb_protocol,object,0,1,Refer to the Illumina beadarray Assay System Manual
+scan_protocol,object,0,1,Refer to the Illumina beadarray Assay System Manual
+data_processing,object,0,1,"For each probe, replicate mesurements were averaged after removing outliers. After subtracting background signal intensities, data were then normalized using the cubic spline algorithm."
+platform_id,object,0,1,GPL8432
+contact_name,object,0,1,"Yujin,,Hoshida"
+contact_institute,object,0,1,University of Texas Southwestern Medical Center
+contact_address,object,0,1,5323 Harry Hines Blvd
+contact_city,object,0,1,Dallas
+contact_state,object,0,1,TX
+contact_zip/postal_code,int64,0,1,75390
+contact_country,object,0,1,USA
+supplementary_file,object,0,1,NONE
+series_id,object,0,1,GSE32225 | GSE33327
+data_row_count,int64,0,1,24526

@@ -1,0 +1,27 @@
+======================================================================
+EXTERNAL VALIDATION REPORT
+======================================================================
+
+Generated : 2026-07-06 13:21:40.741544
+External Cohorts : 3
+
+Performance Summary
+----------------------------------------------------------------------
+
+Cohort : GSE26566
+Accuracy : 0.6213
+ROC AUC : 0.9355
+Sensitivity : 0.3942
+Specificity : 0.9846
+
+Cohort : GSE32225
+Accuracy : 0.0387
+ROC AUC : 0.5000
+Sensitivity : 0.0000
+Specificity : 1.0000
+
+Cohort : GSE89749
+Accuracy : 0.0167
+ROC AUC : 0.5000
+Sensitivity : 0.0000
+Specificity : 1.0000

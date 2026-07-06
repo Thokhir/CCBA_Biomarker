@@ -1,0 +1,2 @@
+gse,platform_id,title,technology,organism,manufacturer,sample_count,columns,probe_column,expression_column,ready_for_mapping
+GSE89749,GPL10558,Illumina HumanHT-12 V4.0 expression beadchip,oligonucleotide beads,Homo sapiens,Illumina Inc.,120,"['ID_REF', 'VALUE', 'Detection Pval']",ID_REF,VALUE,True
