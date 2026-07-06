@@ -1,0 +1,37 @@
+case_id,vital_status,age_at_index,ajcc_pathologic_stage,primary_diagnosis,days_to_death,days_to_last_follow_up,OS_time,OS_status
+TCGA-W5-AA36,Dead,51,,Cholangiocarcinoma,1402.0,,1402.0,1
+TCGA-W5-AA2X,Dead,67,Stage IVB,Cholangiocarcinoma,271.0,271.0,271.0,1
+TCGA-ZH-A8Y2,Dead,59,,Cholangiocarcinoma,701.0,,701.0,1
+TCGA-ZH-A8Y6,Alive,41,Stage I,Cholangiocarcinoma,,519.0,519.0,0
+TCGA-4G-AAZT,Alive,62,Stage I,Cholangiocarcinoma,,420.0,420.0,0
+TCGA-3X-AAV9,Dead,72,Stage I,Cholangiocarcinoma,339.0,339.0,339.0,1
+TCGA-ZU-A8S4,Dead,52,,Cholangiocarcinoma,98.0,,98.0,1
+TCGA-W5-AA2O,Dead,57,Stage I,Cholangiocarcinoma,640.0,640.0,640.0,1
+TCGA-W5-AA2R,Alive,77,Stage I,Cholangiocarcinoma,,1542.0,1542.0,0
+TCGA-W5-AA2G,Alive,62,Stage I,Cholangiocarcinoma,,1976.0,1976.0,0
+TCGA-W5-AA2I,Dead,66,Stage I,Cholangiocarcinoma,1939.0,1939.0,1939.0,1
+TCGA-ZH-A8Y8,Alive,73,Stage I,Cholangiocarcinoma,,602.0,602.0,0
+TCGA-W5-AA2T,Dead,64,,Cholangiocarcinoma,1220.0,,1220.0,1
+TCGA-ZH-A8Y5,Alive,69,,Cholangiocarcinoma,,,,0
+TCGA-ZH-A8Y1,Dead,74,Stage IVA,Cholangiocarcinoma,385.0,385.0,385.0,1
+TCGA-ZD-A8I3,Dead,73,Stage II,Cholangiocarcinoma,169.0,169.0,169.0,1
+TCGA-3X-AAVA,Dead,50,,Cholangiocarcinoma,445.0,,445.0,1
+TCGA-W5-AA33,Alive,60,Stage I,Cholangiocarcinoma,,1449.0,1449.0,0
+TCGA-W5-AA2Z,Alive,29,Stage II,Cholangiocarcinoma,,1614.0,1614.0,0
+TCGA-W5-AA2Q,Alive,68,Stage II,Cholangiocarcinoma,,50.0,50.0,0
+TCGA-W5-AA30,Alive,82,Stage I,Cholangiocarcinoma,,1153.0,1153.0,0
+TCGA-W6-AA0S,Alive,46,Stage I,Cholangiocarcinoma,,808.0,808.0,0
+TCGA-4G-AAZO,Alive,71,Stage II,Cholangiocarcinoma,,1177.0,1177.0,0
+TCGA-W5-AA39,Dead,81,Stage II,Cholangiocarcinoma,170.0,170.0,170.0,1
+TCGA-WD-A7RX,Dead,71,Stage II,Cholangiocarcinoma,21.0,21.0,21.0,1
+TCGA-W5-AA2W,Dead,31,,Cholangiocarcinoma,924.0,,924.0,1
+TCGA-W5-AA31,Alive,71,Stage I,Cholangiocarcinoma,,10.0,10.0,0
+TCGA-3X-AAVB,Alive,70,Stage IVB,Cholangiocarcinoma,,402.0,402.0,0
+TCGA-W5-AA38,Alive,55,Stage I,Cholangiocarcinoma,,1471.0,1471.0,0
+TCGA-YR-A95A,Dead,52,Stage IV,Cholangiocarcinoma,26.0,26.0,26.0,1
+TCGA-ZH-A8Y4,Dead,58,,Cholangiocarcinoma,741.0,,741.0,1
+TCGA-W5-AA2U,Dead,78,Stage I,Cholangiocarcinoma,627.0,627.0,627.0,1
+TCGA-W5-AA34,Dead,75,,Cholangiocarcinoma,555.0,,555.0,1
+TCGA-W5-AA2H,Alive,70,Stage III,Cholangiocarcinoma,,1077.0,1077.0,0
+TCGA-3X-AAVE,Alive,60,Stage II,Cholangiocarcinoma,,650.0,650.0,0
+TCGA-3X-AAVC,Alive,72,Stage I,Cholangiocarcinoma,,709.0,709.0,0
