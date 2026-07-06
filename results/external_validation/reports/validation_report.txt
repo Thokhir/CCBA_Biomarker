@@ -2,7 +2,7 @@
 EXTERNAL VALIDATION REPORT
 ======================================================================
 
-Generated : 2026-07-06 13:21:40.741544
+Generated : 2026-07-06 13:53:15.378356
 External Cohorts : 3
 
 Performance Summary
