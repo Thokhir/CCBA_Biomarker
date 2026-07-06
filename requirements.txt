@@ -13,6 +13,7 @@ gseapy
 plotly
 kaleido
 reportlab
+python-docx
 streamlit
 fastapi
 uvicorn

@@ -1,0 +1,43 @@
+{
+    "generated_at": "2026-07-06 16:10:52",
+    "model": {
+        "training_samples": 44,
+        "training_features": 20,
+        "training_date": "2026-07-04 20:50:19",
+        "sklearn_version": "1.8.0"
+    },
+    "external_validation": {
+        "roc_auc": 0.9326145552560648,
+        "sensitivity": 0.1105121293800539,
+        "specificity": 0.9863013698630136,
+        "n_samples": 444
+    },
+    "top_biomarker_shap": "USH2A",
+    "explainability_ranking_correlations": {
+        "spearman_shap_vs_permutation": 0.20150375939849624,
+        "spearman_shap_vs_rf_builtin": 0.9819548872180449,
+        "spearman_permutation_vs_rf_builtin": 0.22105263157894736
+    },
+    "biological_validation": {
+        "string_network_edges": 7,
+        "string_hub_genes": [
+            "RAD51",
+            "MCM10",
+            "DEPDC1B",
+            "POLQ",
+            "ITIH4"
+        ]
+    },
+    "survival": {
+        "cohort_size": 34,
+        "n_deaths": 18,
+        "km_significant_genes": [
+            "CDH3"
+        ]
+    },
+    "top_drug_target": "DGAT2",
+    "top_repurposing_candidate": {
+        "gene_name": "DGAT2",
+        "drug_name": "ERVOGASTAT"
+    }
+}
