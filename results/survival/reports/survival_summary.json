@@ -1,0 +1,79 @@
+{
+    "generation_date": "2026-07-06 15:12:04",
+    "cohort_size": 34,
+    "n_deaths": 18,
+    "n_censored": 16,
+    "km_significant_genes": [
+        "CDH3"
+    ],
+    "cox_top5_genes": [
+        {
+            "gene_name": "ITIH4",
+            "hazard_ratio": 1.6816984428521513,
+            "p_value": 0.08307684698204389
+        },
+        {
+            "gene_name": "PACC1",
+            "hazard_ratio": 1.579747578644679,
+            "p_value": 0.1212248824889001
+        },
+        {
+            "gene_name": "LPAR2",
+            "hazard_ratio": 0.772621141320015,
+            "p_value": 0.28135573821854953
+        },
+        {
+            "gene_name": "MTHFD2",
+            "hazard_ratio": 0.7674485073906059,
+            "p_value": 0.2875797415384307
+        },
+        {
+            "gene_name": "PON1",
+            "hazard_ratio": 1.2651370993922655,
+            "p_value": 0.3238575952582265
+        }
+    ],
+    "risk_score_genes": [
+        "ITIH4"
+    ],
+    "multivariate_model": [
+        {
+            "covariate": "risk_score",
+            "coef": 0.9083153067119869,
+            "exp(coef)": 2.480140735400124,
+            "p": 0.1305686596726407
+        },
+        {
+            "covariate": "age_at_index",
+            "coef": 0.009620588678596036,
+            "exp(coef)": 1.009667015306248,
+            "p": 0.621986066869887
+        }
+    ],
+    "landmark_auc_by_horizon": [
+        {
+            "horizon_days": 395,
+            "n_evaluable": 32,
+            "n_events_by_horizon": 8,
+            "auc": 0.7083333333333334
+        },
+        {
+            "horizon_days": 790,
+            "n_evaluable": 26,
+            "n_events_by_horizon": 14,
+            "auc": 0.5535714285714286
+        },
+        {
+            "horizon_days": 1186,
+            "n_evaluable": 22,
+            "n_events_by_horizon": 15,
+            "auc": 0.5523809523809524
+        },
+        {
+            "horizon_days": 1581,
+            "n_evaluable": 20,
+            "n_events_by_horizon": 17,
+            "auc": 0.4705882352941177
+        }
+    ]
+}

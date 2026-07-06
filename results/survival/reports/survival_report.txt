@@ -1,0 +1,36 @@
+======================================================================
+SURVIVAL & PROGNOSTIC ANALYSIS REPORT
+======================================================================
+
+Generated : 2026-07-06 15:12:04.790346
+Cohort : 34 TCGA-CHOL tumor samples (18 deaths, 16 censored)
+
+IMPORTANT: This is an exploratory, hypothesis-generating analysis, not a
+confirmatory one. TCGA-CHOL is a small cohort; with only 18 observed
+deaths, statistical power is limited and results should be interpreted
+accordingly, not as validated prognostic claims.
+
+Kaplan-Meier (median-split high vs. low expression, log-rank test)
+----------------------------------------------------------------------
+CDH3: logrank p=0.0314
+
+Univariate Cox Regression (continuous, standardized expression)
+----------------------------------------------------------------------
+No gene reached Cox p<0.05. Closest: ITIH4 (HR=1.682, p=0.0831)
+Note: KM (median-split) and continuous Cox regression test different assumptions and can disagree at this sample size - this is expected, not an error.
+
+Composite Risk Score (genes with Cox p < 0.1: ITIH4)
+----------------------------------------------------------------------
+risk_score: HR=2.480, p=0.1306
+age_at_index: HR=1.010, p=0.6220
+
+Time-Dependent Discrimination (landmark-time ROC-AUC, risk score)
+----------------------------------------------------------------------
+Note: uses the landmark-time method (not IPCW-weighted dynamic AUC via
+scikit-survival, which could not be installed on this machine - no C++
+build toolchain available). Patients censored before a given horizon are
+excluded from that horizon's AUC.
+Day 395: AUC=0.708 (n=32)
+Day 790: AUC=0.554 (n=26)
+Day 1186: AUC=0.552 (n=22)
+Day 1581: AUC=0.471 (n=20)

@@ -1,0 +1,23 @@
+2026-07-06 15:12:02,086 | INFO | Survival Analysis Engine Started
+2026-07-06 15:12:02,086 | INFO | Loading survival cohort...
+2026-07-06 15:12:02,272 | INFO | Cohort: 34 tumor samples, 18 deaths, 16 censored
+2026-07-06 15:12:02,272 | INFO | Running Kaplan-Meier + logrank tests per gene...
+2026-07-06 15:12:02,584 | INFO | KM: 1 / 20 genes significant (logrank p<0.05)
+2026-07-06 15:12:03,401 | INFO | Running univariate Cox regression per gene...
+2026-07-06 15:12:03,948 | INFO | Cox: 0 / 20 genes significant (p<0.05)
+2026-07-06 15:12:04,272 | INFO | Building composite risk score...
+2026-07-06 15:12:04,273 | INFO | Risk score genes (Cox p < 0.10): ['ITIH4']
+2026-07-06 15:12:04,316 | INFO | Multivariate model (risk_score + age):
+                  coef  exp(coef)         p
+covariate                                  
+risk_score    0.908315   2.480141  0.130569
+age_at_index  0.009621   1.009667  0.621986
+2026-07-06 15:12:04,326 | INFO | Computing time-dependent (landmark) ROC-AUC...
+2026-07-06 15:12:04,341 | INFO | Landmark AUC by horizon:
+   horizon_days  n_evaluable  n_events_by_horizon       auc
+0           395           32                    8  0.708333
+1           790           26                   14  0.553571
+2          1186           22                   15  0.552381
+3          1581           20                   17  0.470588
+2026-07-06 15:12:04,590 | INFO | Building simplified nomogram...
+2026-07-06 15:12:04,800 | INFO | Execution Time: 0:00:02.714824
