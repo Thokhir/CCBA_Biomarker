@@ -1,0 +1,30 @@
+======================================================================
+BIOLOGICAL VALIDATION REPORT
+======================================================================
+
+Generated : 2026-07-06 14:58:45.529130
+Panel size : 20 genes
+
+Enrichment Significance Summary (GO / KEGG / Reactome / WikiPathways)
+----------------------------------------------------------------------
+GO_BP           136 terms,   0 significant (padj<0.05), min padj=0.0675, top term: Citrulline Metabolic Process (GO:0000052) (OTC)
+GO_CC            26 terms,   0 significant (padj<0.05), min padj=0.0907, top term: Collagen-Containing Extracellular Matrix (GO:0062023) (ITIH4;ITIH1;USH2A)
+GO_MF            42 terms,  18 significant (padj<0.05), min padj=0.0377, top term: Single-Stranded DNA Binding (GO:0003697) (RAD51;MCM10)
+KEGG             16 terms,   0 significant (padj<0.05), min padj=0.1581, top term: One carbon pool by folate (MTHFD2)
+Reactome        126 terms,   0 significant (padj<0.05), min padj=0.1142, top term: Epigenetic Regulation of Adipogenesis Genes by MLL3 and MLL4 Complexes (DGAT2;MED17)
+WikiPathways     43 terms,   0 significant (padj<0.05), min padj=0.0785, top term: Phase I Biotransformations Non P450 WP136 (PON1)
+
+Protein-Protein Interaction (STRING, required_score=400)
+----------------------------------------------------------------------
+7 edges among 20 genes (5 hub genes at degree>=2, 13 isolated genes).
+A sparse/mostly-disconnected network is an expected result for this panel:
+the 20 genes were selected via independent differential-expression + Random
+Forest + XGBoost consensus scoring, not via known-pathway curation, so strong
+prior PPI connectivity was never a selection criterion.
+Hub genes: RAD51, MCM10, DEPDC1B, POLQ, ITIH4
+
+Literature Mining (PubMed co-occurrence)
+----------------------------------------------------------------------
+Most-studied gene in CCA context: RAD51 (10 hits)
+Genes with zero CCA-specific PubMed co-occurrence (12/20, novel/understudied candidates, not an error):
+DGAT2, JADE2, LPAR2, MCF2L2, MCM10, MED17, MTHFD2, OSBPL3, PACC1, POLQ, PON1, USH2A

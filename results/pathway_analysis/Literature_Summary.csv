@@ -1,0 +1,21 @@
+gene_name,cca_hit_count,cancer_broad_hit_count,top_pmids,top_titles,novel_in_cca_literature
+CDH3,4,132,42098854;34013637;21189991,A pyroptosis-related molecular signature stratifies prognosis and highlights GSDMB-mediated malignancy in intrahepatic cholangiocarcinoma. | Transcriptome and DNA methylation analysis reveals molecular mechanisms underlying intrahepatic cholangiocarcinoma progression. | CDH3/P-Cadherin regulates migration of HuCCT1 cholangiocarcinoma cells.,False
+DEPDC1B,1,38,36568241,DEPDC1B promotes development of cholangiocarcinoma through enhancing the stability of CDK1 and regulating malignant phenotypes.,False
+DGAT2,0,40,,,True
+ITIH1,1,12,23534794,Gene expression profiling of intrahepatic cholangiocarcinoma.,False
+ITIH4,1,60,32888851,OSchol: an online consensus survival web server for cholangiocarcinoma prognosis analysis.,False
+JADE2,0,4,,,True
+LPAR2,0,58,,,True
+MCF2L2,0,0,,,True
+MCM10,0,90,,,True
+MED17,0,10,,,True
+MTHFD2,0,170,,,True
+OSBPL3,0,28,,,True
+OTC,2,333,41331315;36300097,Establishment and validation of a diagnostic model for cholangiocarcinoma based on LightGBM machine-learning algorithm. | Screening potential biomarkers of cholangiocarcinoma based on gene chip meta-analysis and small-sample experimental research.,False
+PACC1,0,4,,,True
+POLQ,0,142,,,True
+PON1,0,220,,,True
+RAD51,10,2511,42017899;41094661;40796227,Bidirectional Mendelian randomization analysis reveals significant associations between Serum DNA repair proteins and liver cancer. | Establishment and characteristic analysis of a novel patient derived cell line of intrahepatic cholangiocarcinoma. | Cholangiocytes' primary cilia regulate DNA damage response and repair.,False
+SPA17,1,12,37224658,Sperm protein antigen 17 and Sperm flagellar 1 cancer testis antigens are expressed in a rare case of ciliated foregut cyst of the common hepatic duct.,False
+SPDL1,1,265,27780932,Soluble programmed death-ligand 1 (sPDL1) and neutrophil-to-lymphocyte ratio (NLR) predicts survival in advanced biliary tract cancer patients treated with palliative chemotherapy.,False
+USH2A,0,35,,,True

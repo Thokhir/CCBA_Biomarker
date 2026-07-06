@@ -1,0 +1,21 @@
+gene_name,n_GO_BP_terms,n_GO_CC_terms,n_GO_MF_terms,n_KEGG_terms,n_Reactome_terms,n_WikiPathways_terms,string_degree,is_hub,top_disease_name,top_disease_score,cca_hit_count,novel_in_cca_literature
+CDH3,0,0,0,1,4,4,0,False,EEM syndrome,0.777584850289211,4,False
+DEPDC1B,3,0,0,0,21,0,2,True,smoking cessation,0.38331785120005624,1,False
+DGAT2,16,4,3,2,13,4,0,False,gout,0.2982835444935854,0,True
+ITIH1,0,1,3,0,0,0,1,False,"osteoarthritis, hip",0.43088005214589625,1,False
+ITIH4,3,4,3,0,4,2,2,True,Abnormality of the skeletal system,0.46723251603044913,1,False
+JADE2,11,0,7,0,3,0,0,False,Abnormality of the skeletal system,0.5096914410699793,0,True
+LPAR2,3,1,1,7,8,3,0,False,Alzheimer disease,0.2268513749969195,0,True
+MCF2L2,0,0,2,0,0,0,0,False,hypertrophic cardiomyopathy,0.2851153245005701,0,True
+MCM10,4,5,3,0,10,2,3,True,immunodeficiency 80 with or without congenital cardiomyopathy,0.6520610512892403,0,True
+MED17,16,3,3,1,20,0,0,False,infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly,0.7392368430682983,0,True
+MTHFD2,7,2,4,1,4,5,0,False,neurodegenerative disease,0.398346055368503,0,True
+OSBPL3,3,1,3,0,5,0,0,False,mathematical ability,0.32014048970923814,0,True
+OTC,11,2,0,1,5,7,0,False,ornithine carbamoyltransferase deficiency,0.8672822216812908,2,False
+PACC1,3,0,3,0,0,0,0,False,placental retention,0.2491241688082779,0,True
+POLQ,0,0,0,0,4,0,2,True,melanoma,0.4164298454631914,0,True
+PON1,11,3,5,0,7,2,1,False,amyotrophic lateral sclerosis,0.40915739095301323,0,True
+RAD51,27,10,6,4,29,15,3,True,Fanconi anemia complementation group R,0.7410750821077937,10,False
+SPA17,4,2,0,0,0,0,0,False,neurodegenerative disease,0.224503315085698,1,False
+SPDL1,9,2,0,0,18,0,0,False,idiopathic pulmonary fibrosis,0.5150105462692716,1,False
+USH2A,9,2,1,0,0,0,0,False,Usher syndrome type 2A,0.8397025026070053,0,True

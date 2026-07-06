@@ -1,0 +1,78 @@
+{
+    "generation_date": "2026-07-06 14:58:45",
+    "panel_size": 20,
+    "enrichment_significance_summary": {
+        "GO_BP": {
+            "n_terms": 136,
+            "n_significant": 0,
+            "min_adjusted_pvalue": 0.0675169359249309,
+            "top_term": "Citrulline Metabolic Process (GO:0000052)",
+            "top_term_genes": "OTC"
+        },
+        "GO_CC": {
+            "n_terms": 26,
+            "n_significant": 0,
+            "min_adjusted_pvalue": 0.0907399466243502,
+            "top_term": "Collagen-Containing Extracellular Matrix (GO:0062023)",
+            "top_term_genes": "ITIH4;ITIH1;USH2A"
+        },
+        "GO_MF": {
+            "n_terms": 42,
+            "n_significant": 18,
+            "min_adjusted_pvalue": 0.0376562486845331,
+            "top_term": "Single-Stranded DNA Binding (GO:0003697)",
+            "top_term_genes": "RAD51;MCM10"
+        },
+        "KEGG": {
+            "n_terms": 16,
+            "n_significant": 0,
+            "min_adjusted_pvalue": 0.1581108149134871,
+            "top_term": "One carbon pool by folate",
+            "top_term_genes": "MTHFD2"
+        },
+        "Reactome": {
+            "n_terms": 126,
+            "n_significant": 0,
+            "min_adjusted_pvalue": 0.114161318213222,
+            "top_term": "Epigenetic Regulation of Adipogenesis Genes by MLL3 and MLL4 Complexes",
+            "top_term_genes": "DGAT2;MED17"
+        },
+        "WikiPathways": {
+            "n_terms": 43,
+            "n_significant": 0,
+            "min_adjusted_pvalue": 0.0785224450968755,
+            "top_term": "Phase I Biotransformations Non P450 WP136",
+            "top_term_genes": "PON1"
+        }
+    },
+    "string_network": {
+        "n_edges": 7,
+        "n_hub_genes": 5,
+        "n_isolated_genes": 13,
+        "hub_genes": [
+            "RAD51",
+            "MCM10",
+            "DEPDC1B",
+            "POLQ",
+            "ITIH4"
+        ]
+    },
+    "literature_mining": {
+        "n_novel_in_cca_literature": 12,
+        "novel_genes": [
+            "DGAT2",
+            "JADE2",
+            "LPAR2",
+            "MCF2L2",
+            "MCM10",
+            "MED17",
+            "MTHFD2",
+            "OSBPL3",
+            "PACC1",
+            "POLQ",
+            "PON1",
+            "USH2A"
+        ],
+        "most_studied_gene": "RAD51"
+    }
+}
