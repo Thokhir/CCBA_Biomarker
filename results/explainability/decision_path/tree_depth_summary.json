@@ -1,0 +1,9 @@
+{
+    "n_estimators": 500,
+    "depth_min": 1,
+    "depth_mean": 1.36,
+    "depth_max": 2,
+    "leaves_min": 2,
+    "leaves_mean": 2.364,
+    "leaves_max": 4
+}

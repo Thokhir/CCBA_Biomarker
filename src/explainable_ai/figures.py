@@ -59,3 +59,43 @@ def plot_permutation_bar(importance_df: pd.DataFrame, out_path: Path, top_n: int
     ax.set_title("Permutation Importance (External Cohorts)")
     fig.tight_layout()
     _save(fig, out_path)
+
+
+def plot_dependence(explanation: shap.Explanation, gene: str, feature_names: list, out_path: Path) -> None:
+    idx = feature_names.index(gene)
+    values = np.array(explanation.values)
+    class1 = explanation[..., 1] if values.ndim == 3 else explanation
+    single_feature = class1[:, idx]
+    fig = plt.figure(figsize=(6, 5))
+    shap.plots.scatter(single_feature, show=False)
+    fig = plt.gcf()
+    fig.tight_layout()
+    _save(fig, out_path)
+
+
+def plot_decision_tree(estimator, feature_names: list, out_path: Path, tree_label: str) -> None:
+    from sklearn.tree import plot_tree
+    fig, ax = plt.subplots(figsize=(10, 6))
+    plot_tree(estimator, feature_names=feature_names, class_names=["Normal", "Tumor"],
+              filled=True, rounded=True, fontsize=9, ax=ax)
+    ax.set_title(f"Random Forest - {tree_label} (illustrative single tree)")
+    _save(fig, out_path)
+
+
+def plot_cohort_comparison(comparison_df: pd.DataFrame, out_path: Path) -> None:
+    genes = comparison_df["gene_name"].unique().tolist()
+    sources = comparison_df["source"].unique().tolist()
+    fig, ax = plt.subplots(figsize=(10, 6))
+    x = np.arange(len(genes))
+    width = 0.8 / len(sources)
+    for i, source in enumerate(sources):
+        subset = comparison_df[comparison_df["source"] == source].set_index("gene_name").reindex(genes)
+        ax.bar(x + i * width, subset["mean_shap"], width, yerr=subset["std_shap"], label=source)
+    ax.set_xticks(x + width * (len(sources) - 1) / 2)
+    ax.set_xticklabels(genes, rotation=45, ha="right")
+    ax.set_ylabel("Mean SHAP value")
+    ax.set_title("SHAP Value Comparison Across Cohorts")
+    ax.legend()
+    ax.axhline(0, color="gray", linewidth=0.8)
+    fig.tight_layout()
+    _save(fig, out_path)

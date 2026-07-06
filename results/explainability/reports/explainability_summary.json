@@ -1,6 +1,6 @@
 {
     "model_training_date": "2026-07-04 20:50:19",
-    "explainability_generation_date": "2026-07-06 14:23:03",
+    "explainability_generation_date": "2026-07-06 14:37:19",
     "n_training_samples": 44,
     "n_external_samples_explained": 444,
     "ranking_correlations": {
@@ -21,5 +21,16 @@
         "DEPDC1B",
         "MED17",
         "POLQ"
-    ]
+    ],
+    "random_forest_tree_depth_summary": {
+        "n_estimators": 500,
+        "depth_min": 1,
+        "depth_mean": 1.36,
+        "depth_max": 2,
+        "leaves_min": 2,
+        "leaves_mean": 2.364,
+        "leaves_max": 4
+    },
+    "clinical_panel_genes_in_nested_cv_stability_pool": 0,
+    "clinical_panel_size": 20
 }

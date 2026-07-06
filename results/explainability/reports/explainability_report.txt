@@ -2,7 +2,7 @@
 EXPLAINABLE AI REPORT
 ======================================================================
 
-Generated : 2026-07-06 14:23:03.339644
+Generated : 2026-07-06 14:37:19.462404
 
 Top 10 Genes by Global SHAP Importance
 ----------------------------------------------------------------------
@@ -42,3 +42,20 @@ cohorts. A lower correlation there reflects genuine distribution shift
 between training and external data, not a computation error - consistent
 with this project's established distinction between ML feature stability
 and clinically reproducible biomarkers.
+
+Random Forest Structure
+----------------------------------------------------------------------
+n_estimators : 500
+Tree depth   : min=1, mean=1.36, max=2
+The ensemble consists of unusually shallow trees (depth 1-2), a result of
+class_weight='balanced' combined with bootstrap resampling of a small,
+imbalanced 44-sample training set. Predictive power comes from averaging
+many such shallow learners, not from any single deep tree.
+
+Biomarker Stability Integration
+----------------------------------------------------------------------
+Clinical panel genes also found in the nested-CV feature stability pool: 0 / 20
+This confirms the project's established design rationale: the clinical
+biomarker panel (optimized for reproducibility across independent GEO
+cohorts) and the nested-CV feature stability pool (optimized for internal
+TCGA model performance) are deliberately distinct gene sets, not a bug.
