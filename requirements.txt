@@ -11,6 +11,8 @@ shap
 lifelines
 gseapy
 plotly
+kaleido
+reportlab
 streamlit
 fastapi
 uvicorn
