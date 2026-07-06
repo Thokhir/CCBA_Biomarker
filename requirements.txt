@@ -27,3 +27,4 @@ openpyxl
 jupyter
 notebook
 ipykernel
+pyinstaller

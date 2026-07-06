@@ -1,0 +1,31 @@
+# Run from the project root: docker compose -f src/deployment/docker/docker-compose.yml up
+#
+# Two services built from the same image (build context is the project
+# root, since the Dockerfile does `COPY . .` and needs the full repo):
+# - api: FastAPI prediction service on :8000
+# - dashboard: Streamlit clinical decision-support app on :8501
+#
+# NOT built/tested in this session (Docker daemon was not running) - build
+# and smoke-test both services before relying on this in production.
+
+services:
+  api:
+    build:
+      context: ../../..
+      dockerfile: src/deployment/docker/Dockerfile
+    ports:
+      - "8000:8000"
+    command: ["uvicorn", "src.deployment.fastapi.api:app", "--host", "0.0.0.0", "--port", "8000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  dashboard:
+    build:
+      context: ../../..
+      dockerfile: src/deployment/docker/Dockerfile
+    ports:
+      - "8501:8501"
+    command: ["streamlit", "run", "src/dashboard/app.py", "--server.address=0.0.0.0", "--server.port=8501"]
